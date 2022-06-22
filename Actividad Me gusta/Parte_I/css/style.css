@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    background-color: #ffffff;
+    border: 3px solid black;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3, h4, .boton {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-left: 90px;
+}
+
+.boton{
+    background-color: #ffd966;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0);
+    margin-left: 30px;
+}

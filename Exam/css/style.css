@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+header{
+    background-color: white;
+    width: 750px;
+    margin: 15px auto;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div h4, h1{
+    font-weight: normal;
+}
+#leaf{
+    background-color: #00d1b2;
+    width: 50px;
+    height: 50px;
+}
+#car{
+    width: 40px;
+    height: 40px;
+}
+.buscar{
+    padding: 8px;
+    padding-left: 10px;
+    width: 400px;
+    border-radius: 15px;
+}
+.buscar{
+    background-image: url(../images/search-dark.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 380px center;
+}
+
+
+/*Barra de navegación*/
+nav{
+    padding-top: 20px;
+    width: 750px;
+    display: flex;
+    margin: 0 auto;
+}
+nav div ul{
+    width: 750px;
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-between;
+}
+nav div ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav div{
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+
+/*Main*/
+main{
+    width: 750px;
+    margin: 0 auto;
+}
+main h1{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.together{
+    display: flex;
+    flex-direction: row;
+    background-color: #00d1b2;
+    width: 490px;
+}
+.discover{
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    background-color:#00d1b2;
+    font-size: x-large;
+    color: white;
+}
+.arrow-text{
+    width: 245px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #00d1b2;
+}
+.arrow{
+    width: 40px;
+}
+.img{
+    width: 245px;
+}
+.img img{
+    width: 245px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 245px;
+}
+.img2 img{
+    width: 240px;
+    height: 155px;
+}
+.img2{
+    width: 240px;
+    height: 155px;
+    margin-bottom: 10px;
+}
+.text-arrow{
+    width: 240px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #00d1b2;
+    font-size: large;
+    color: white;
+}
+.succulents{
+    display: flex;
+    flex-direction: row;
+    background-color: #aae8d8;
+    margin-top: 20px;
+    padding: 20px;
+}
+.succulent{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.succulent-img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/*Cookies*/
+footer{
+    position: fixed;
+    width: 750px;
+    bottom:0;
+    background-color: white;
+}
+.cookies{
+    display: flex;
+    width: 750px;
+    border: 2px solid black;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.botton{
+    width: 80px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: #00d1b2;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0);
+}

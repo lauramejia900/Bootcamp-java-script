@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Barra*/
+.barra{
+    background-color: #cccccc;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+.barra h1 {
+    display: inline;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.boton {
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: #2a77e1;
+    width: 80px;
+    height: 30px;
+    color: white;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0);
+}
+
+.busqueda{
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+/*Lateral*/
+
+.contenedor-total{
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorx2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+/*ninja 1*/
+.ninja-1{
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 340;
+    height: 350;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.nombre h1, .nombre h4, .nombre h5{ 
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+.nombre h4{
+    text-align: center;
+}
+
+.likes{
+    background-color: #ffd966;
+    width: 80px;
+    height: 30px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0);
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.body{
+    padding-left:30px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: large;
+
+}
+
+.ninja-2{
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 340;
+    height: 350;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.dojonary{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+/*el otro extremo*/
+.ad{
+    background-color: #93c47d;
+    width: 150px;
+    height: 30px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0);
+    margin-left: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.dojonary h2{
+    align-items: center;
+}

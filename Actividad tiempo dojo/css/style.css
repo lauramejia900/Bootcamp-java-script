@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: #9fc5f8;
+}
+
+nav{
+    width: 750px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}  
+
+nav ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.temperatura {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.row{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.dia{
+    flex: 1;
+    background-color: #eee;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.ultimo{
+    margin-right: 0px;
+}
+
+.dia img{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.dia h2{
+    margin-bottom: 15px;
+}
+
+.dia p {
+    margin-bottom: 15px;
+}
+
+.temp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-red{
+    color: red;
+}
+
+.temp-blue{
+    color: blue;
+}
+
+footer{
+    position: fixed;
+    width: 750px;
+}
+.cookies{
+    display: flex;
+    width: 750px;
+    border: 2px solid black;
+    align-items: center;
+    margin-left: 308px;
+}
+
+.text{
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+footer img{
+    margin-left: 20px;
+}

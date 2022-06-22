@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif
+}
+
+.barra{
+    background-color: black;
+    width: 580px;
+    height: 60px;
+    color: white;
+    line-height: 50px;
+    margin-left: 325px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.feed{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 330px;
+}
+
+.avatar a{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.avatar-photo{
+    height: 90px;
+    margin-left: 15px;
+}
+
+h3, h4, .boton {
+    display: inline;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+h4 {
+    margin-left: 95px;
+}
+
+.boton{
+    background-color: #ffd966;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0);
+    margin-left: 40px;
+}
+
+.neil p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.neil{
+    border: 3px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 360px;
+    height: 90px;
+}
+
+.nichole{
+    border: 3px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 360px;
+    height: 90px;
+}
+.nichole h4{
+    margin-left: 60px;
+}
+
+.nichole p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.jim{
+    border: 3px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 360px;
+    height: 90px;
+}
+
+.jim p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.your-feed{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
+}
